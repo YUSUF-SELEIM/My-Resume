@@ -1096,11 +1096,6 @@ input:checked + .toggle-bg {
   z-index: 50;
 }
 
-.mx-24 {
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -2014,6 +2009,11 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
   .md\:flex {
     display: flex;
   }
