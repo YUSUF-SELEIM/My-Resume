@@ -1135,10 +1135,6 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -1333,16 +1329,8 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-8 {

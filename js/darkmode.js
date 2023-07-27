@@ -20,9 +20,16 @@ themeToggleBtn.addEventListener('click', function () {
     if (localStorage.getItem('color-theme')) {
         if (localStorage.getItem('color-theme') === 'light') {
             document.documentElement.classList.add('dark');
+            document.getElementById('white').classList.add("hidden");
+            document.getElementById('dark').classList.remove("hidden");
+
+
             localStorage.setItem('color-theme', 'dark');
         } else {
             document.documentElement.classList.remove('dark');
+            document.getElementById('dark').classList.add("hidden");
+            document.getElementById('white').classList.remove("hidden");
+
             localStorage.setItem('color-theme', 'light');
         }
 
